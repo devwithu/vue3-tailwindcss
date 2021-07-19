@@ -1,5 +1,7 @@
 <template>
-  <div>This is my nav component</div>
+  <div>
+    <img :src="Logo" alt="Porche Logo">
+  </div>
 </template>
 
 <script setup>
