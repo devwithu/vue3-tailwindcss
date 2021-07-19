@@ -6,6 +6,6 @@
 </template>
 
 <script setup>
-import {StatsCard} from './elements/stats/StatsCard.vue'
+import StatsCard from './elements/stats/StatsCard.vue'
 
 </script>
