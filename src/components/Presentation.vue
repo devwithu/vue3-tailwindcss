@@ -1,3 +1,19 @@
 <template>
-  <div>This is my presentation component</div>
+  <div>
+    {{ content }}
+  </div>
 </template>
+
+<script>
+export default {
+  props: {
+    content: {
+      default: () => {},
+      type: Object
+    }
+  },
+  setup(props) {
+    console.log(props.content)
+  }
+}
+</script>
