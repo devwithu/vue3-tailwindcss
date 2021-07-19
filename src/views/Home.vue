@@ -1,12 +1,8 @@
 <template>
-  <div>
+  <div class="Home">
     <Nav></Nav>
     <MainHeader></MainHeader>
-    <Presentation oriented="left"></Presentation>
-    <Presentation oriented="right"></Presentation>
-    <Stats></Stats>
-    <Tabs></Tabs>
-    <Footer></Footer>
+
   </div>
 </template>
 

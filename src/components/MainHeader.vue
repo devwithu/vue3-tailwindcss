@@ -1,3 +1,5 @@
 <template>
-  <div>This is my main component</div>
+  <div class="bg-customBlue">
+    This is my main component
+  </div>
 </template>
