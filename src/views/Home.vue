@@ -3,7 +3,7 @@
     <Nav></Nav>
     <MainHeader></MainHeader>
     <Presentation v-for="obj, objIndex in presentations" :key="objIndex" :content="obj" class="mb-16" />
-
+    <Stats></Stats>
   </div>
 </template>
 
@@ -17,7 +17,8 @@ export default {
   components: {
     Nav,
     MainHeader,
-    Presentation
+    Presentation,
+    Stats
   },
   setup() {
     let data = reactive({
